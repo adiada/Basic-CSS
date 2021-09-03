@@ -1,0 +1,36 @@
+/* *{
+    outline: 1px solid red !important;
+} */
+body{
+    margin: 0;  /*as by default browser adds about 5px margin around body */
+    font-family: sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background-color: #009578;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.logo{
+    height: 100%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+main{
+    margin-top: 80px;
+    font-size: 20px;
+    color: #333;
+}
+
+.container{
+    /* 2em - 2 times the font i.e in this case 40px as main font-size is set to 20px */
+    padding: 2em;  
+    max-width: 1200px;
+    margin: 0 auto;
+}
